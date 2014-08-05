@@ -1,10 +1,14 @@
 def sayHello(name):
 	print "hello ", name, " it's testing Travis"
+
+def sayHello():
+    print "Hello World"
 	
-def test():
+def testHelloName():
 	print ("Hello! What's your name?")
 	name = raw_input ()
 	sayHello(name)
-
+    
 if __name__ == '__main__':
-	test()
+	#testHelloName()
+    sayHello()
