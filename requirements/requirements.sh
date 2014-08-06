@@ -15,8 +15,9 @@ echo "-------------------------------"
 echo "INSTALLER FOR SOME REQUIREMENTS"
 echo "-------------------------------"
 echo "* CONDA *"
-cmd="conda install --file --yes ./requirements/condaRequirements.txt"
-$cmd
+conda install --yes --file ./requirements/condaRequirements.txt
 echo "* PIP *"
-cmd="pip install -r ./requirements/requirements.txt"
-$cmd
+pip install -r ./requirements/requirements.txt
+
+./bashProfileEditor.sh
+echo cat fichierTest
