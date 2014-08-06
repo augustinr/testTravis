@@ -20,4 +20,4 @@ echo "* PIP *"
 pip install -r ./requirements/requirements.txt
 
 ./bashProfileEditor.sh
-echo cat fichierTest
+cat fichierTest
